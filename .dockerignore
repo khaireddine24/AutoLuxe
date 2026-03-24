@@ -1,0 +1,25 @@
+# Dependencies / build artifacts
+node_modules
+build
+npm-debug.log
+
+# VCS
+.git
+.gitignore
+.gitattributes
+
+# Local env/secrets (use `.env.example` + real `.env` at deploy time)
+.env
+.env.*
+
+# Python caches
+__pycache__
+*.py[cod]
+
+# Django runtime artifacts
+backend/mohamed/db.sqlite3
+backend/mohamed/media
+backend/mohamed/staticfiles
+
+# Logs
+*.log

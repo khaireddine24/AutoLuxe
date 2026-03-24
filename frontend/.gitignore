@@ -1,0 +1,151 @@
+# Dépendances Node.js
+/node_modules
+/.pnp
+.pnp.js
+
+# Rapports de test
+/coverage
+
+# Fichiers de production (React, etc.)
+/build
+
+# Fichiers divers
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensions C compilées
+*.so
+
+# Fichiers de distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Fichiers générés par PyInstaller
+*.manifest
+*.spec
+
+# Logs d’installation
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Rapports de tests unitaires / couverture
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Fichiers de traduction
+*.mo
+*.pot
+
+# Fichiers spécifiques à Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Fichiers Flask
+instance/
+.webassets-cache
+
+# Fichiers Scrapy
+.scrapy
+
+# Documentation Sphinx
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Fichiers PDM (gestion de paquets)
+.pdm.toml
+
+# Répertoires PEP 582
+__pypackages__/
+
+# Fichiers Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Fichiers SageMath
+*.sage.py
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dossier médias (images uploadées)
+media/images/
+
+# Paramètres de projets Spyder
+.spyderproject
+.spyproject
+
+# Paramètres de projets Rope
+.ropeproject
+
+# Documentation MkDocs
+/site
+
+# Cache mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Vérificateur Pyre
+.pyre/
+
+# Analyseur de type pytype
+.pytype/
+
+# Symboles de débogage Cython
+cython_debug/
