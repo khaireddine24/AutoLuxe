@@ -180,8 +180,7 @@ SIMPLE_JWT = {  # Paramètres JWT
 
 CORS_ALLOWED_ORIGINS = _env_list(
     "CORS_ALLOWED_ORIGINS",
-    "http://localhost:3000,http://localhost:3001,http://127.0.0.1:3000",
-    "https://autoluxe.onrender.com,https://auto-luxe-delta.vercel.app"
+    "http://localhost:3000,http://localhost:3001,http://127.0.0.1:3000,https://autoluxe.onrender.com,https://auto-luxe-delta.vercel.app"
 )
 
 FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:3000/")  # Redirection post-achat
