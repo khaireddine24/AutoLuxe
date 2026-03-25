@@ -40,14 +40,14 @@ export const authFailedMsg = errorMsg => { // Action pour enregistrer un message
 
 
 const saveTokenDataGetUserId = (access, user_type) => { // Sauvegarde le token et retourne l’ID utilisateur
-               const access_token = access // Conserve le token d’accès JWT
-               const token = jwtDecode(access_token) // Décode le JWT pour récupérer les claims
-               localStorage.setItem('token', access_token); // Stocke le token pour persistance
-               localStorage.setItem('user_type', user_type); // Stocke le type d’utilisateur
-               localStorage.setItem('userId', token.user_id); // Stocke l’ID utilisateur
-               const expirationTime = new Date( token.exp * 1000); // Convertit l’exp en date JS
-               localStorage.setItem('expirationTime', expirationTime); // Sauvegarde l’expiration
-               return token.user_id // Retourne l’identifiant utilisateur
+     const access_token = access // Conserve le token d’accès JWT
+     const token = jwtDecode(access_token) // Décode le JWT pour récupérer les claims
+     localStorage.setItem('token', access_token); // Stocke le token pour persistance
+     localStorage.setItem('user_type', user_type); // Stocke le type d’utilisateur
+     localStorage.setItem('userId', token.user_id); // Stocke l’ID utilisateur
+     const expirationTime = new Date(token.exp * 1000); // Convertit l’exp en date JS
+     localStorage.setItem('expirationTime', expirationTime); // Sauvegarde l’expiration
+     return token.user_id // Retourne l’identifiant utilisateur
 
 }
 
