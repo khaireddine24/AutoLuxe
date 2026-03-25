@@ -3,14 +3,10 @@
  * Affiche un résumé du véhicule (image, modèle, marque, année, prix, catégorie)
  * et l’état de réservation.
  */
-import React from "react"; // React
-import { useSelector } from "react-redux"; // Lecture d’informations utilisateur
 import { Link } from "react-router-dom"; // Lien vers la page de détail
-import { Button } from "reactstrap"; // (non utilisé ici mais importé auparavant)
+
 
 const Car = ({ car }) => { // Composant fonctionnel Car
-  const userId = useSelector((state) => state.userId); // ID utilisateur (éventuel)
-  const user_type = useSelector((state) => state.user_type); // Type utilisateur
 
   let context = null; // Message d’état de réservation
   if (car) {
